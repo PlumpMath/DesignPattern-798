@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Behavior.Mediator;
+
+/**
+ *
+ * @author Administrator
+ */
+public class MyMediator implements Mediator {
+
+    private User user1;
+    private User user2;
+
+    public User getUser1() {
+        return user1;
+    }
+
+    public User getUser2() {
+        return user2;
+    }
+
+    @Override
+    public void createMediator() {
+        user1 = new User1(this);
+        user2 = new User2(this);
+    }
+
+    @Override
+    public void workAll() {
+        user1.work();
+        user2.work();
+    }
+}
