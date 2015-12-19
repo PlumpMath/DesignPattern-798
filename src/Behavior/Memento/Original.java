@@ -8,7 +8,7 @@ package Behavior.Memento;
 /**
  *
  * @author Administrator
- * ����¼ģʽ
+ * 备忘录模式
  */
 public class Original {
 

@@ -8,7 +8,7 @@ package Behavior.State;
 /**
  *
  * @author Administrator
- * 状态类的核心类 
+ * 鐘舵�佺被鐨勬牳蹇冪被 
  */
 public class State {
 

@@ -8,7 +8,7 @@ package Behavior.State;
 /**
  *
  * @author Administrator
- * ״̬ģʽ���л���
+ * 状态模式的切换类
  */
 public class Context {
 

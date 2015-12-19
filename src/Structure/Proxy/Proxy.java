@@ -19,9 +19,9 @@ public class Proxy implements Sourceable {
     }  
     @Override  
     public void method() {  
-        before();  //代理
+        before();  //浠ｇ悊
         source.method();  
-        after();  //代理
+        after();  //浠ｇ悊
     }  
     private void after() {  
         System.out.println("after proxy!");  

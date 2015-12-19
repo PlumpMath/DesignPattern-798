@@ -7,7 +7,7 @@ package Create.Prototype;
 
 /**
  *
- * @author Administrator 原型模式
+ * @author Administrator 鍘熷瀷妯″紡
  */
 public class Prototype {
 

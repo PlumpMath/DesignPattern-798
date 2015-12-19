@@ -12,13 +12,13 @@ package Behavior.TemplateMethod;
  */
 public abstract class AbstractCalculator {  
       
-    /*主方法，实现对本类其它方法的调用*/  
+    /*涓绘柟娉曪紝瀹炵幇瀵规湰绫诲叾瀹冩柟娉曠殑璋冪敤*/  
     public final int calculate(String exp,String opt){  
         int array[] = split(exp,opt);  
         return calculate(array[0],array[1]);  
     }  
       
-    /*被子类重写的方法*/  
+    /*琚瓙绫婚噸鍐欑殑鏂规硶*/  
     abstract public int calculate(int num1,int num2);  
       
     public int[] split(String exp,String opt){  

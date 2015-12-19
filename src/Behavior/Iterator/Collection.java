@@ -14,10 +14,10 @@ public interface Collection {
       
     public Iterator iterator();  
       
-    /*取得集合元素*/  
+    /*鍙栧緱闆嗗悎鍏冪礌*/  
     public Object get(int i);  
       
-    /*取得集合大小*/  
+    /*鍙栧緱闆嗗悎澶у皬*/  
     public int size();  
 }  
 

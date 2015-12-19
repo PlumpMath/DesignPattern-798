@@ -11,9 +11,9 @@ package Structure.Adapter;
  */
 public interface Targetable {
 
-    /* ÓëÔ­ÀàÖĞµÄ·½·¨ÏàÍ¬ */
+    /* ä¸åŸç±»ä¸­çš„æ–¹æ³•ç›¸åŒ */
     public void method1();
 
-    /* ĞÂÀàµÄ·½·¨ */
+    /* æ–°ç±»çš„æ–¹æ³• */
     public void method2();
 }

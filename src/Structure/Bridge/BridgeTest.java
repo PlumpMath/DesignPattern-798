@@ -16,12 +16,12 @@ public class BridgeTest {
           
         Bridge bridge = new MyBridge();  
           
-        /*µ÷ÓÃµÚÒ»¸ö¶ÔÏó*/  
+        /*è°ƒç”¨ç¬¬ä¸€ä¸ªå¯¹è±¡*/  
         Sourceable source1 = new SourceSub1();  
         bridge.setSource(source1);  
         bridge.method();  
           
-        /*µ÷ÓÃµÚ¶þ¸ö¶ÔÏó*/  
+        /*è°ƒç”¨ç¬¬äºŒä¸ªå¯¹è±¡*/  
         Sourceable source2 = new SourceSub2();  
         bridge.setSource(source2);  
         bridge.method();  

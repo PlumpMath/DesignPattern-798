@@ -11,14 +11,14 @@ package Behavior.Iterator;
  * @author Administrator
  */
 public interface Iterator {  
-    //Ç°ÒÆ  
+    //å‰ç§»  
     public Object previous();  
       
-    //ºóÒÆ  
+    //åç§»  
     public Object next();  
     public boolean hasNext();  
       
-    //È¡µÃµÚÒ»¸öÔªËØ  
+    //å–å¾—ç¬¬ä¸€ä¸ªå…ƒç´   
     public Object first();  
 }  
 

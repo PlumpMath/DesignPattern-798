@@ -20,8 +20,8 @@ public class Decorator implements Sourceable {
 
     @Override
     public void method() {
-        System.out.println("before decorator!");//这里装饰
+        System.out.println("before decorator!");//杩欓噷瑁呴グ
         source.method();
-        System.out.println("after decorator!");//这里装饰
+        System.out.println("after decorator!");//杩欓噷瑁呴グ
     }
 }

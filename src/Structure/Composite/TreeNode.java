@@ -39,19 +39,19 @@ public class TreeNode {
         this.parent = parent;  
     }  
       
-    //添加孩子节点  
+    //娣诲姞瀛╁瓙鑺傜偣  
     public void add(TreeNode node){  
         children.add(node);  
         node.setParent(this);
     }  
       
-    //删除孩子节点  
+    //鍒犻櫎瀛╁瓙鑺傜偣  
     public void remove(TreeNode node){  
         children.remove(node);
         node.setParent(null);
     }  
       
-    //取得孩子节点  
+    //鍙栧緱瀛╁瓙鑺傜偣  
     public Enumeration<TreeNode> getChildren(){  
         return children.elements();  
     }  

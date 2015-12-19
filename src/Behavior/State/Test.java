@@ -16,11 +16,11 @@ public class Test {
         State state = new State();
         Context context = new Context(state);
 
-        //ÉèÖÃµÚÒ»ÖÖ×´Ì¬  
+        //è®¾ç½®ç¬¬ä¸€ç§çŠ¶æ€  
         state.setValue("state1");
         context.method();
 
-        //ÉèÖÃµÚ¶şÖÖ×´Ì¬  
+        //è®¾ç½®ç¬¬äºŒç§çŠ¶æ€  
         state.setValue("state2");
         context.method();
     }

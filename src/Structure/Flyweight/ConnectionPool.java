@@ -14,13 +14,13 @@ import java.util.Vector;
 /**
  *
  * @author Administrator
- * ÏíÔªÄ£Ê½
+ * äº«å…ƒæ¨¡å¼
  */
 public class ConnectionPool {  
       
     private Vector<Connection> pool;  
       
-    /*¹«ÓĞÊôĞÔ*/  
+    /*å…¬æœ‰å±æ€§*/  
     private String url = "jdbc:mysql://localhost:3306/test";  
     private String username = "root";  
     private String password = "root";  
@@ -30,7 +30,7 @@ public class ConnectionPool {
     private static ConnectionPool instance = null;  
     Connection conn = null;  
   
-    /*¹¹Ôì·½·¨£¬×öÒ»Ğ©³õÊ¼»¯¹¤×÷*/  
+    /*æ„é€ æ–¹æ³•ï¼Œåšä¸€äº›åˆå§‹åŒ–å·¥ä½œ*/  
     private ConnectionPool() {  
         pool = new Vector<Connection>(poolSize);  
   
@@ -45,12 +45,12 @@ public class ConnectionPool {
         }  
     }  
   
-    /* ·µ»ØÁ¬½Óµ½Á¬½Ó³Ø */  
+    /* è¿”å›è¿æ¥åˆ°è¿æ¥æ±  */  
     public synchronized void release() {  
         pool.add(conn);  
     }  
   
-    /* ·µ»ØÁ¬½Ó³ØÖĞµÄÒ»¸öÊı¾İ¿âÁ¬½Ó */  
+    /* è¿”å›è¿æ¥æ± ä¸­çš„ä¸€ä¸ªæ•°æ®åº“è¿æ¥ */  
     public synchronized Connection getConnection() {  
         if (pool.size() > 0) {  
             Connection conn = pool.get(0);  
